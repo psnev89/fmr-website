@@ -1,13 +1,43 @@
-<header>
-    <nav>
-        {% if navigation.items %}
-            <ul>
+<nav class="navbar bg-base-100 h-20">
+    <div class="navbar-start">
+        <a href="/">
+            <img src="/assets/images/logo.png" alt="FMR Logo" class="w-auto"/>
+        </a>
+    </div>
+    <div class="navbar-end">
+        <div class="hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
                 {% for item in navigation.items %}
                     <li>
                         <a href="{{ item.url }}">{{ item.title }}</a>
                     </li>
                 {% endfor %}
             </ul>
-        {% endif %}
-    </nav>
-</header>
+        </div>
+        <button tabindex="0" role="button" class="btn btn-ghost lg:hidden" onclick="navigationMenu.showModal()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block h-6 w-6 stroke-current">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+        <dialog id="navigationMenu" class="modal modal-bottom p-4">
+            <div class="modal-box rounded-b-box">
+                {% if navigation.items %}
+                    <div class="divider divider-warning"></div>
+                    <ul tabindex="0" class="menu menu-lg text-center w-full gap-1">
+                        {% for item in navigation.items %}
+                            <li>
+                                <button class="text-xl justify-center" method="dialog" type="button" onclick="location.href='{{ item.url }}'">
+                                    {{ item.title }}
+                                </button>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <div class="divider divider-warning"></div>
+                {% endif %}
+            </div>
+            <form method="dialog" class="modal-backdrop">
+                <button>close</button>
+            </form>
+        </dialog>
+    </div>
+</nav>
