@@ -1,0 +1,13 @@
+<header>
+    <nav>
+        {% if navigation.items %}
+            <ul>
+                {% for item in navigation.items %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </nav>
+</header>
