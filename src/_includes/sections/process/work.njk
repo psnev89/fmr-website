@@ -1,3 +1,18 @@
-<div>
-    work.njk
-</div>
+<section class="section-block">
+    <h1 class="section-title">
+        Descubra como trabalhamos!
+    </h1>
+    <div class="flex flex-col gap-6">
+        {% for work in collections.works %}
+            <div class="card lg:card-side bg-base-100 card-border">
+                <figure>
+                    <img src="/assets/images/{{ work.data.image }}" alt="FMR Logo"/>
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title uppercase">{{ work.data.title }}</h2>
+                    {{ work.content | safe }}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
