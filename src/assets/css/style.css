@@ -1,35 +1,11 @@
 @import "tailwindcss";
 
 /*
-  Optional: If you need to explicitly tell Tailwind where to scan for classes
-  (e.g., if your files are not in the current working directory, or if you have specific includes/excludes).
-  For most Eleventy setups with a 'src' folder, Tailwind v4's auto-detection is often sufficient.
+  Plugins
 */
-/* @source "./src"; */
-
-/*
-  DaisyUI integration:
-  Use the @plugin directive to include DaisyUI.
-  Note: This must come *after* @import "tailwindcss";
-*/
+@plugin "@tailwindcss/typography";
 @plugin "daisyui";
 
-/*
-  Optional: Theme customization with @theme directive (replaces tailwind.config.js theme section)
-  You can customize colors, fonts, spacing, etc., directly here.
-*/
-/*
-@theme {
-  --color-primary: oklch(50% 0.25 240);
-  --font-display: "Inter", sans-serif;
-  --spacing-xl: 4rem;
-}
-*/
-
-/*
-  Optional: DaisyUI specific configuration in CSS.
-  You can specify themes, or other DaisyUI settings here.
-*/
 @theme {
   --daisyui-themes: (
     light,
