@@ -15,3 +15,15 @@
     cupcake
   );
 }
+
+.section-block {
+  @apply p-6 prose prose-base;
+}
+
+.section-title {
+  @apply uppercase text-center;
+}
+
+.section-divider {
+  @apply divider mx-10;
+}
