@@ -1,3 +1,20 @@
-<div>
-    recent-news.njk
-</div>
+<section class="section-block">
+    <h1 class="section-title">
+        Notícias mais recentes
+    </h1>
+    <div class="carousel w-full">
+        {% for item in collections.news | reverse | limit(5) %}
+            <article id="item{{ loop.index }}" class="carousel-item w-full block">
+                <p>{{ item.content | safe }}</p>
+                <p class="text-orange-300">{{ item.data.date | readableDate }}</p>
+            </article>
+        {% endfor %}
+    </div>
+    <div class="flex w-full justify-center gap-2">
+        {% for item in collections.news %}
+            <a href="#item{{ loop.index }}" class="btn btn-lg">
+                {{ loop.index }}
+            </a>
+        {% endfor %}
+    </div>
+</section>
