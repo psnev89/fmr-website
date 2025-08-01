@@ -1,3 +1,16 @@
-<div>
-    request.njk
+<div class="section-block">
+    <form name="contact-form" method="POST" data-netlify="true">
+        <fieldset class="fieldset bg-base-200 border-base-300 rounded-box w-full border p-4">
+            <div class="hidden">
+                <label>Don't fill this out if you're human: <input name="bot-field"/></label>
+            </div>
+            <label class="label">Nome:</label>
+            <input type="text" name="name" class="input"/>
+            <label class="label">Contacto:</label>
+            <input type="text" name="contact" class="input"/>
+            <label class="label">Mensagem:</label>
+            <textarea type="text" name="message" class="textarea"></textarea>
+            <button class="btn">Enviar</button>
+        </fieldset>
+    </form>
 </div>
