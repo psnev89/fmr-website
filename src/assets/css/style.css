@@ -17,7 +17,7 @@
 }
 
 .section-block {
-  @apply p-6 prose prose-base prose-a:text-orange-300;
+  @apply p-6 prose prose-base lg:prose-lg prose-a:text-orange-300 max-w-none;
 }
 
 .section-title {
