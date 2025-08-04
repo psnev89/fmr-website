@@ -2,17 +2,19 @@
     <h1 class="section-title">
         Descubra como trabalhamos!
     </h1>
-    <div class="flex flex-col gap-6">
+    <div class="grid grid-cols-1 auto-cols-fr lg:auto-rows-fr gap-6">
         {% for work in collections.works %}
-            <div class="card lg:card-side bg-base-100 card-border">
-                <figure>
-                    <img src="/assets/images/{{ work.data.image }}" alt="FMR Logo"/>
+            <article class="card lg:card-side bg-base-100 card-border">
+                <figure class="not-prose">
+                    <img class="w-3xl" src="/assets/images/{{ work.data.image }}" alt="FMR Logo"/>
                 </figure>
-                <div class="card-body">
-                    <h2 class="card-title uppercase">{{ work.data.title }}</h2>
-                    {{ work.content | safe }}
+                <div class="card-body lg:w-1/2">
+                    <h2 class="card-title uppercase not-prose text-3xl font-bold text-black">{{ work.data.title }}</h2>
+                    <div class="lg:text-xl">
+                        {{ work.content | safe }}
+                    </div>
                 </div>
-            </div>
+            </article>
         {% endfor %}
     </div>
 </section>

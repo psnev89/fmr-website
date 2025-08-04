@@ -3,9 +3,9 @@ title: Recolha de resíduos
 image: recolha-residuos.png
 ---
 
-A FMR encontra-se dotada de equipamentos e de skills que lhe permite responder a uma grande variedade de serviços. Por norma o processo de recolha de resíduos segue o seguinte fluxo:
+Oferecemos um serviço completo de recolha de resíduos, adaptado a cada cliente. O processo de recolha segue um fluxo simples e transparente, desenhado para lhe dar total confiança:
 
-1. Contacto e visita às instalações do cliente, com o objectivo de averiguar condições de carga, armazenamento e tipologia do resíduo;
-2. Apresentação de proposta formal, para aquisição do resíduo;
-3. Implementação e acompanhamento técnico;
-4. Transporte, pesagem e tratamento dos resíduos nas instalações da FMR em Camarate ou São Paio de Oleiros.
+1. **Avaliação:** Começamos com um contacto e uma visita às suas instalações para analisar as condições de carga, armazenamento e o tipo de resíduo.
+2. **Proposta:** Apresentamos uma proposta formal para a aquisição do resíduo.
+3. **Implementação:** Iniciamos o serviço com o devido acompanhamento técnico.
+4. **Processamento:** Efetuamos o transporte, a pesagem e o tratamento final dos resíduos nas nossas instalações em Camarate ou São Paio de Oleiros.

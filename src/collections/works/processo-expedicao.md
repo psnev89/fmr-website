@@ -3,4 +3,4 @@ title: Expedição e transporte
 image: processo-expedicao.png
 ---
 
-Na última etapa do ciclo, a mercadoria é armazenada em local apropriado de forma a facilitar a expedição. O transporte até ao destino final poderá ser assegurado quer pelas nossas viaturas, quer por viaturas enviadas pelos nossos clientes. Em alguns casos, o transporte é efectuado em contentores ou comboio.
+Após a triagem e o enfardamento, a mercadoria é armazenada de forma a otimizar a sua expedição. O transporte pode ser assegurado pela nossa frota ou por viaturas dos nossos clientes. Para maior flexibilidade, dependendo da necessidade, o transporte também pode ser feito por **contentores ou comboio**, garantindo uma solução logística completa e eficiente.

@@ -3,4 +3,4 @@ title: Processo de triagem
 image: processo-triagem.png
 ---
 
-A triagem dos diferentes resíduos é executada através de processos manuais e automáticos que recorrem a tecnologia avançada. O nosso centro é constituído por tapetes de alimentação, pisos móveis, destroçadores de fardos, separadores balísticos, por um dispositivo óptico e por uma secção manual o que possibilita uma correcta separação entre os diferentes tipos de materiais, assegurando também que os nossos fardos tenham uma baixa ou nula quantidade de contaminantes.
+Na **FMR**, a triagem é um processo de precisão que combina tecnologia avançada com a atenção da nossa equipa. Recorremos a equipamentos como **tapetes de alimentação**, **pisos móveis**, **destroçadores de fardos**, **separadores balísticos** e **dispositivos óticos** para a separação automática dos materiais, complementados por uma secção manual que assegura que os nossos fardos têm uma quantidade de contaminantes mínima ou nula.
