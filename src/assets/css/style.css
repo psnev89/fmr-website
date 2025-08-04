@@ -29,7 +29,7 @@
 }
 
 .nav-entry {
-  @apply hover:text-orange-300 uppercase lg:text-xl;
+  @apply hover:text-orange-300 uppercase lg:text-lg;
 }
 
 .timeline-item {

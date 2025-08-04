@@ -17,6 +17,11 @@ export default function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, { zone: timeZone }).setLocale('pt').toLocaleString(DateTime.DATE_FULL);
     });
 
+    eleventyConfig.addFilter("now", (_, format) => {
+        const now = DateTime.now().setZone("Europe/Lisbon");
+        return format ? now.toFormat(format) : now;
+    });
+
     return {
         dir: {
             input: "src",
