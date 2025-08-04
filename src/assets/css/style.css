@@ -27,3 +27,11 @@
 .section-divider {
   @apply divider mx-10;
 }
+
+.nav-entry {
+  @apply hover:text-orange-300 uppercase lg:text-lg;
+}
+
+.timeline-item {
+  grid-template-columns: 0 20px 1fr;
+}

@@ -1,4 +1,4 @@
-<nav class="navbar bg-base-100 h-20 border-b-2 border-orange-300">
+<nav class="navbar bg-base-100 h-20 border-b-2 border-orange-300 container px-4 mx-auto">
     <div class="navbar-start">
         <a href="/">
             <img src="/assets/images/logo.png" alt="FMR Logo" class="w-auto"/>
@@ -6,9 +6,9 @@
     </div>
     <div class="navbar-end">
         <div class="hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+            <ul class="menu menu-horizontal px-1 gap-2">
                 {% for item in navigation.items %}
-                    <li>
+                    <li class="nav-entry">
                         <a href="{{ item.url }}">{{ item.title }}</a>
                     </li>
                 {% endfor %}
@@ -26,7 +26,7 @@
                     <ul tabindex="0" class="menu menu-lg text-center w-full gap-1">
                         {% for item in navigation.items %}
                             <li>
-                                <button class="text-xl justify-center" method="dialog" type="button" onclick="location.href='{{ item.url }}'">
+                                <button class="nav-entry text-xl justify-center" method="dialog" type="button" onclick="location.href='{{ item.url }}'">
                                     {{ item.title }}
                                 </button>
                             </li>
