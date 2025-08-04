@@ -16,8 +16,16 @@
   );
 }
 
+body {
+    @apply bg-base-100;
+}
+
 .section-block {
-  @apply p-6 prose prose-base lg:prose-xl prose-a:text-orange-300 max-w-none;
+  @apply prose prose-base lg:prose-xl prose-a:text-orange-300 max-w-none;
+}
+
+.section-content {
+  @apply container mx-auto px-6 py-4;
 }
 
 .section-title {
@@ -29,7 +37,7 @@
 }
 
 .nav-entry {
-  @apply hover:text-orange-300 uppercase lg:text-lg;
+  @apply hover:text-orange-300 uppercase lg:text-lg font-bold;
 }
 
 .timeline-item {
