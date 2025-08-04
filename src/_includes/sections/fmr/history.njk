@@ -1,28 +1,22 @@
 <section class="section-block">
     <h1 class="section-title">A nossa história</h1>
-    <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical not-prose">
+    <ul class="timeline timeline-snap-icon timeline-compact timeline-vertical not-prose">
         {% if timeline.items %}
             {% for item in timeline.items %}
                 <li>
                     {% if loop.first == false %}
                         <hr/>
                     {% endif %}
-                    <div class="timeline-middle">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
-                            <path
-                                fill-rule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5
-                                    2.5a.75.75 0 001.137-.089l4-5.5z"
-                                clip-rule="evenodd"/>
-                        </svg>
+                    <div class="timeline-middle inline-flex align-top">
+                        <i class="fa-solid fa-circle-chevron-right text-orange-300 mt-[1px]"></i>
                     </div>
                     <div class="timeline-end text-start mb-10 prose prose-base">
-                        <time class="font-bold">{{ item.date }}</time>
+                        <time class="font-bold uppercase text-xl">{{ item.date }}</time>
                         {% if item.title %}
-                            <div class="text-lg font-black">{{ item.title }}</div>
+                            <div class="lg:text-lg font-black">{{ item.title }}</div>
                         {% endif %}
                         {% if item.text %}
-                            <p class="mt-0">{{ item.text }}</p>
+                            <p class="mt-0 lg:text-lg">{{ item.text }}</p>
                         {% endif %}
                     </div>
                     {% if loop.last == false %}
