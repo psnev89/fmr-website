@@ -6,7 +6,7 @@
         {% for work in collections.works %}
             <article class="card lg:card-side bg-base-100 card-border">
                 <figure class="not-prose">
-                    <img class="w-3xl" src="/uploads/images/{{ work.data.image }}" alt="FMR Logo"/>
+                    <img class="w-3xl" src="{{ work.data.image }}" alt="FMR Logo"/>
                 </figure>
                 <div class="card-body lg:w-1/2">
                     <h2 class="card-title uppercase not-prose text-3xl font-bold text-black">{{ work.data.title }}</h2>

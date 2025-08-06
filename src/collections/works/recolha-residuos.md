@@ -1,6 +1,6 @@
 ---
 title: Recolha de resíduos
-image: recolha-residuos.png
+image: /uploads/images/recolha-residuos.png
 ---
 
 Oferecemos um serviço completo de recolha de resíduos, adaptado a cada cliente. O processo de recolha segue um fluxo simples e transparente, desenhado para lhe dar total confiança:
