@@ -18,12 +18,15 @@ export default defineConfig({
     outputFolder: "admin",
     publicFolder: "_site",
   },
+
   media: {
     tina: {
       mediaRoot: "src/assets/images",
       publicFolder: "_site/assets/images",
+      static: true
     },
   },
+
   schema: {
     collections: [
       {
