@@ -2,8 +2,7 @@ import { DateTime } from "luxon";
 
 export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
-        "./src/assets/images": "./assets/images",
-        "./src/assets/docs": "./assets/docs",
+        "./src/public": "./",
     });
 
     eleventyConfig.addFilter("limit", (array, limit) => {

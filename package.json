@@ -6,9 +6,9 @@
     "start": "npm-run-all -p dev:*",
     "start:tina": "npx tinacms dev -c 'npm run start'",
     "build": "tinacms build && npm-run-all build:*",
-    "dev:css": "npx @tailwindcss/cli -i src/assets/css/style.css -o _site/assets/css/style.css --watch --postcss",
+    "dev:css": "npx @tailwindcss/cli -i src/styles/style.css -o _site/styles/style.css --watch --postcss",
     "dev:11ty": "npx @11ty/eleventy --serve",
-    "build:css": "npx @tailwindcss/cli -i src/assets/css/style.css -o _site/assets/css/style.css --postcss --minify",
+    "build:css": "npx @tailwindcss/cli -i src/styles/style.css -o _site/styles/style.css --postcss --minify",
     "build:11ty": "npx @11ty/eleventy"
   },
   "type": "module",
