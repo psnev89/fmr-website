@@ -1,3 +1,6 @@
 node_modules
 /_site
 package-lock.json
+**/__generated__
+
+.env

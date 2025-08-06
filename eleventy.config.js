@@ -2,7 +2,6 @@ import { DateTime } from "luxon";
 
 export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
-        "./src/admin": "./admin",
         "./src/assets/images": "./assets/images",
         "./src/assets/docs": "./assets/docs",
     });
